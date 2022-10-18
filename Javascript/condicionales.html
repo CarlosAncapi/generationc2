@@ -14,14 +14,68 @@
             si la condicion es verdadera ingresara al if
             condicion == True 
             if(condicion){
-                
+
                 //dentro del if
             }
 
         */
 
+        var edad = parseInt(prompt("ingresa tu edad: ",0));
 
+        if(edad>=18){
+            console.log("es mayor de edad")
+        }
+        if(edad<18){
+            console.log("es menor de edad")
+        }
+        console.log("-----------------------")
 
+        //console.clear()
+        edad = parseInt(prompt("ingresa tu edad: ",0));
+
+        if(edad<18){
+            console.log("es menor de edad")
+        }else{
+            console.log("es mayor de edad")
+        }
+        
+        console.log("-----------------------")
+        var numero = parseInt(prompt("Ingresa un numero entre 10 y 20: ",0));
+
+        //conectores &&(AND), ||(or)
+
+        if (numero>10 && numero<20){
+            console.log("el numero ingresado esta en el rango entre 10 y 20")
+        }else  {
+            console.log("ingresaste un valor que no esta en el rango entre 10 y 20")
+        }
+        
+        //validar si un numero es mayor o menor o igual a cero
+
+        var numeroAValidar = parseInt(prompt("1 opcion)Ingrese un nuevo numero igual o distinto a cero: ",0))
+
+        if (numeroAValidar!=0){
+            if(numeroAValidar>0){
+                console.log("el numero ingresado es mayor a cero")
+            }else {
+                console.log("el numero es menor a cero")
+            }
+        }else{
+            console.log("el numero es igual a cero")
+        }
+
+        console.log("-----------------------------------------------------")
+        var numeroAValidar = parseInt(prompt("ingresa un nuevo numero",0));
+    
+        if(numeroAValidar == 0){
+
+        }else if(numeroAValidar > 0){
+
+        }else{
+            
+        }
+
+        
 
 
     </script>
