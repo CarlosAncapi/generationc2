@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        console.log("menu usuario")
+        console.log("-------------------------------------")
+        
+        var edad;
+        do{
+        	edad = parseInt(prompt("ingrese su edad: ",null));
+        }while (isNaN(edad));
+        //Verificar si es mayor de edad
+        //var edad = parseInt(prompt('Ingresar edad', 'edad'));
+        if(edad>=18){
+            console.log('Puedes continuar')
+            console.log ('Edad: ',edad);
+            
+            //Una vez se valida, hacemos el resto de preguntas
+            var nombre = prompt('Ingresar Nombre', 'Nombre');
+            console.log('     *****','   ', '     *****')
+            console.log ('Nombre:', nombre);
+            
+            var apellido = prompt('Ingresar apellido', 'apellido');
+            console.log ('Apellido: ',apellido);
+            
+            var correo = prompt('Ingresar correo', 'correo');
+            console.log ('Correo: ', correo);
+            
+            var direccion = prompt('Ingresar direcccion', 'direccion');
+            console.log ('Dirección: ',direccion);
+            
+            var telefono = prompt('Ingresar telefono: +569', 'telefono');
+            console.log ('Telefono: +569', telefono);
+
+
+        }else{
+            console.log('Lo sentimos, es menor de edad, no puede continuar')
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //bucle for
+
+        var i =2;
+
+        for(let i=0; i<10;i++){
+            console.log("el valor de i es",i);
+        }
+
+        var numeros_pares=[2,4,6,8,10];
+
+        /*
+        numeros_pares [numeros_pares.length-1] ; 
+        numeros_pares [5-1];
+        numeros_pares [4];*/
+
+        for (let i = 0; i< numeros_pares.length; i++) {
+            const element = numeros_pares[i];
+            console.log("la posicion: "+i+ ", tiene el elemento: "+element)
+            
+        }
+
+        //console.log(element)
+
+        //var: para la creacion de variables globales
+        //let: solo para bloques especificos
+        //const : bloques especificos, pero se recomienda para establecer que variables que nop cambian su contenido 
+
+        var suma_pares=0;
+        for(let i=0; i<numeros_pares.length;i++){
+            suma_pares=suma_pares+numeros_pares[i]
+            console.log("el valor acumulado es: "+suma_pares)
+        }
+
+    </script>
+    
+</body>
+</html>
