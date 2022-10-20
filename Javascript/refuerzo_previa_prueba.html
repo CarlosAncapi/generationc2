@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicios previa prueba</title>
+</head>
+<body>
+    <script>
+            
+            //## Operaciones básicas, Tipos de datos, Prompt y Alert
+
+            // p1 - Escribir un programa que muestre un prompt donde el usuario ingresa un número, luego muestra otro prompt pidiendo otro número, finalmente el programa muestra una alerta con el resultado de la suma.
+            var p1_numero_1 = prompt("ingresa el primer numero:");
+            var p1_numero_2 = prompt("ingresa el segundo numero:");
+
+            var p1_numero_1 = parseInt(p1_numero_1);
+            var p1_numero_2 = parseInt(p1_numero_2);
+
+            var p1_suma = p1_numero_1+p1_numero_2;
+
+
+            alert("la suma de los dos numeros ingresados es: " +p1_suma)
+
+
+            // p2- Crear un programa donde el usuario ingrese en un prompt la temperatura en Celcius y el programa muestre en una alerta la temperatura en Fahrenheit.
+            var  p2_celcius = prompt("ingrese la temperatura actual en celcius:")
+            p2_celcius = parseInt(p2_celcius)
+
+            var p2_ferenheit= parseInt((p2_celcius*1.8)+32)
+            alert("la temperatura en Ferenheit es: "+p2_ferenheit)
+            
+            
+            // p3- Pedir un número a un usuario a través de un prompt y luego dividirlo por 10, ejemplo: 5 / 10  igual 0.5
+            var p3_numero = prompt("ingrese un numero para dividirlo por 10: ")
+            p3_numero = parseFloat(p3_numero)
+
+            alert("el numero ingresado dividido por 10 es: "+(p3_numero/10))
+
+            //p4-Si a = [1,2,3] crear un script que determine de muestre un alert del tipo de dato de a.
+            
+
+            /*
+
+            ## If and else
+
+            - Crear un programa que determine si un número introducido en un Prompt es par o no, la respuesta será mostrada en una alerta.
+
+            - Crear un programa que determine si un número introducido en un Prompt es divisible por 5 o no, mostrar el resultado con consolq2e.log
+
+            - Crear un programa que determine si un número introducido en un popup es divisible por 11 y 5 o no, mostrar el resultado con console.log
+
+            - Crear un programa  que le pida al usuario dos números en un Prompt y luego muestre en un alerta el número mayor.
+
+            - Crear un programa que le pida al usuario primero un  números al usuario a través de un prompt y luego un segundo número para luego mostrar en un alerta el número mayor, esta vez realizar el ejercicio ocupando un if ternario.
+
+            - El siguiente código tiene un error, descubrirlo y arreglarlo:
+
+                ~~~javascript
+                // Obtener edad
+                if(edad < 13) {
+                    console.log("Es niño");
+                }if(edad < 18 ){
+                console.log("Es adolecente");
+                } else{
+                console.log("Es adolecente");
+                }
+                ~~~
+
+
+                
+            ## Loops
+
+            - Mostrar todos los números de 1 a n aumentando de 1 en 1 donde n lo ingresa el usuario en un prompt.
+
+            - Mostrar todos los números de 1 a N aumentando de 2 en 2 donde n lo ingresa el usuario en un prompt.
+
+            - Mostrar todos los números de N a 1 disminuyendo de 1 en 1 donde n lo ingresa el usuario en un prompt.
+
+            - Escribir utilizando console.log la tabla del 9 hasta 9x10.
+
+            - Pedir al usuario que ingrese un número en un prompt, hacer la suma de todos los dígitos, validar que el número ingresado no contenga letras.
+
+            - Realizar la suma de todos los números pares entre N y M donde N y M los ingresa un usuario.
+
+            - Realizar la sumatoria de los primeros N números, donde N es ingresado por el usuario.
+
+            - Realizar el factorial de los primeros N números.
+
+
+            - Encontrar todos los divisores de un número.
+
+            - Determinar si un número ingresado por el usuario en un loop es primo o no, validar que el número ingresado sea mayor o igual a dos.
+
+            - Crear un programa que determine si un número es perfecto o no, (se dice que un número es perfecto si el número es igual a sus divisores, ejemplos 6 = 1 + 2 + 3)
+
+            - Generar los primeros N números primos, donde n es ingresado por el usuario.
+
+            - Generar los primeros N números perfectos.
+
+            ## Funciones
+
+            - Crear una función que reciba un valor cualquiera y lo muestre ocupando console.log(), llamar a la función pasando el valor 5
+
+            - La siguiente función devuelve undefined en lugar de la multiplicación, se pide arreglarla
+
+            ~~~js
+                function multiply(a, b){
+                a * b
+                }
+            ~~~
+
+            - Crear una función que reciba dos valores y devuelva la suma de ellos.
+
+            - Crear una función que reciba un número entero y muestre un error si el tipo de dato pasado es de otro tipo.
+
+            - Crear una función autoejecutable que muestre "muuu" en pantalla
+
+            ## Array
+
+            - Dado el array = [1,2,3,4,5,6]
+
+                - Iterar por todos los elementos dentro de un array utilizando while y mostrarlos en pantalla.
+                
+                - Iterar por todos los elementos dentro de un array utilizando for y mostrarlos en pantalla.
+                
+                - Iterar por todos los elementos dentro de un array utilizando .forEach y mostrarlos en pantalla.
+                
+                - Mostrar todos los elementos dentro de un array sumándole uno a cada uno.
+                
+                - Generar una copia de un array pero con todos los elementos incrementado en 1.
+
+                - Calcular el promedio
+
+            - Crear un array vacío, luego generar 20 números al azar y guardarlos en un array.
+
+            - Crear un array vacío, luego generar N números al azar y guardarlos en un array, N es introducido por el usuario a través de un prompt.
+
+            - Dado un array que contiene ["azul", "amarillo", "rojo", "verde", "café", "rosa"] determinar si un color introducido por el usuario se encuentra dentro del array o no.
+
+
+            ## Ordenamiento
+                
+            - Crear una función que reciba un arreglo y que cree uno nuevo con todos los elementos ordenados de menor a mayor
+
+            - Crear una función que reciba un arreglo y que cree uno nuevo con todos los elementos ordenados de mayor a menor.
+
+            */
+
+
+
+
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
+
