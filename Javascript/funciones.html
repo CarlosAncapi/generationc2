@@ -25,6 +25,59 @@
         imprimirImpar(numero_impar); // en este parentesis lo que esta adentro se llama argumento
         console.log("nuevo numero_impar",numero_impar);
 
+        function sumaNumeros(){
+            console.log(numero_impar+4)
+        }
+
+        sumaNumeros();
+
+
+        //
+
+        numero_impar=3;
+        var num_division = prompt("ingrese un numero:" );
+        num_division = parseFloat(num_division);
+        numero_impar =parseFloat(numero_impar)
+
+        function division(div1,div2){
+            
+            return div1/div2;
+
+        };
+
+        var division_retornada = division(num_division,numero_impar)
+        alert("el retorno de la division es: "+ division_retornada)
+
+        function multiplacion(numero1, numero2){
+            return numero1*numero2;
+        }
+
+        var resultadoMultiplacion=multiplacion(34,76);
+        console.log("El resultado es",resultadoMultiplacion);
+
+        function crearNuevoArreglo(numero){
+            var arreglo = [];//[0,1,2]
+            for(let i=0; i <= numero;i++){
+                arreglo.push(i);
+            }
+            return arreglo;
+        }
+
+
+        ///
+        function crearNuevoArreglo(numero){
+            var arreglo = [];//[0,1,2]
+            for(let i=0; i <= numero;i++){
+                arreglo.push(i);
+            }
+            return arreglo;
+        }
+        var numeroIngresado= parseInt(prompt("ingresa un numero",0));
+        var miArreglo = crearNuevoArreglo(numeroIngresado);
+        console.log("mi arreglo es: ",miArreglo);
+
+
+
 
 
 
