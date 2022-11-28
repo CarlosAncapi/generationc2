@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos HTML</title>
+</head>
+<body>
+    <!-- Comentario-->
+    <!-- Titulos o Heading h1 al h6-->
+    <h1 id="top">Titulo en H1</h1>
+    <h2>Titulo en H2</h2>
+    <h3>Titulo en H3</h3>
+    <h4>Titulo en H4</h4>
+    <h5>Titulo en H5</h5>
+    <h6>Titulo en H6</h6>
+    <br><!-- salto de linea!-->
+    <hr><!-- linea horizontal-->
+
+    <!-- parrafos-->
+    <p>
+        <b>One Piece (ワンピース?) </b>
+        <br><!-- salto de linea!-->
+        <i>es un manga escrito</i> 
+        <br><!-- salto de linea!-->
+        "e" 
+        <br><!-- salto de linea!-->
+        <u>ilustrado por el mangaka japonés </u>
+        <br><!-- salto de linea!-->
+
+        <u><i><b>Eiichirō Oda.</b></i></u> 
+        <br>
+        Comenzó a publicarse en la revista Japonesa Weekly Shōnen Jump el 22 de julio de 1997 y a la fecha se han publicado 104 volúmenes.
+    </p>
+    <br><!-- salto de linea!-->
+    <p>One Piece es el manga más vendido de la revista Shonen Jump (la más importante, reconocida y vendida del medio), de la editorial Shueisha, y de toda la historia de Japón, con más de 516 millones de copias vendidas a nivel mundial (416 millones en Japón, y 100 millones en 60 países juntos),2​3​4​5​6​7​8​ y en Japón fue el manga más vendido de manera consecutiva desde el año 2007 hasta 2018 logrando un récord histórico. Es el manga que más ganancias ha reportado a su autor ostentando el Récord Guinness como el manga con mayor cantidad de copias publicadas de la misma obra de cómic realizado por un único autor en todo el mundo.9​ En la encuesta realizada por la cadena de televisión Japonesa TV Asahi para elegir los 100 Mejores mangas de la historia, One Piece alcanzó el puesto número 01.10​</p>
+    <br><!-- salto de linea!-->
+    <P>
+        Larp Editores licenció el manga en Argentina y posteriormente fue retomado por Ivrea. En España principalmente la publicación estaba a manos de Planeta DeAgostini y después pasó a manos de su división Planeta Cómic, encargada actualmente de su publicación. En México fue publicado por Editorial Toukan en un principio y, más tarde, por Panini Comics.11​
+    </P>
+    <br><hr>
+    <!-- hipervinculo o Anchor-->
+    <a href="http://www.sii.cl">visite a SII</a>
+    <br>
+        <!-- atributo target hace que el hipervinculo lo abra en otra pestaña al ejecutarlo-->
+    <a href="http://www.sii.cl" target="_blank">visite a SII</a>
+    <br>
+    <!-- ABRIR PAGINA CONTINUA-->
+    <a href="pagina2.html">Click para ir a la pagina 2</a>
+    <br>
+    <a href="#top">ir arriba</a>
+    <br><hr>
+    <!-- Imagenes-->
+    <!-- width hace referencia al ancho de una imagen-->
+    <!-- height hace referencia a la altura de una imagen -->
+    <img src="assets/img/1.png" width="500px">
+    <br><hr>
+    <a href="http://www.sii.cl" target="_blank">
+        <img src="assets/img/1.png" height="400px">
+
+    </a>
+
+    <br><hr>
+
+    <ol>
+        <li>Carne</li>
+        <li>Huevos</li>
+        <li>Queso</li>
+        <li>Jamon</li>
+        <li>pan</li>
+    </ol>
+
+    <br><hr>
+
+    <ul>
+        <li>Carne</li>
+        <li>Huevos</li>
+        <li>Queso</li>
+        <li>Jamon</li>
+        <li>pan</li>
+    </ul>
+
+    <br><hr>
+
+    <!-- listas Ul y Ol ----tambien estam las dd, dl y dt-->
+    <ol>
+        <li>grupo</li>
+        <li>
+            <ol>
+                <li>uno</li>
+            </ol>
+        </li>
+    </ol>
+
+
+    <!-- listas Ul dentro de otras listas Ul-->
+    <br><hr>
+
+    <ul>
+        <li>lista grupos</li>
+        <li>
+            <ul>
+                <li>grupo 7
+                    <ul>
+                        <li>Luisa</li>
+                        <li>Jona</li>
+                        <li>Atenas</li>
+                        <li>Camilo</li>
+                    </ul>
+                </li>
+                <li>grupo 3</li>
+                <li>grupo 5</li>
+                <li>grupo 1</li>
+                <li>grupo 4</li>
+                    <ul>
+                        <li>Carlos</li>
+                        <li>Ivan</li>
+                        <li>Teresa</li>
+                        <li>Michel</li>
+                    </ul>
+
+                <li>grupo 2</li>
+            </ul>
+        </li>
+        
+    </ul>
+
+    <br><hr>
+
+    <!-- Tablas que contienen filas y columnas -->
+    <!-- table : Thead y Tbody-->
+    <table>
+        <thead> 
+            <tr>
+                <th>id</th>
+                <th>nombre</th>
+                <th>email</th>
+                <th>password</th>
+            </tr>
+        </thead>
+        <tbody> 
+            <tr> 
+                <td>1</td>
+                <td>carlos</td>
+                <td>carlos@gmail.com</td>
+                <td>12345</td>
+            </tr>
+
+            <tr> 
+                <td>2</td>
+                <td>Teresa</td>
+                <td>tere@gmail.com</td>
+                <td>54321</td>
+            </tr>            
+
+            <tr> 
+                <td>3</td>
+                <td>Michel</td>
+                <td>michel@gmail.com</td>
+                <td>54312</td>
+            </tr> 
+
+            <tr> 
+                <td>4</td>
+                <td>Ivan</td>
+                <td>Ivan@gmail.com</td>
+                <td>12354</td>
+            </tr> 
+
+        </tbody>
+    </table>
+
+
+
+</body>
+</html>
