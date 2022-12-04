@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica CSS</title>
+    <!--<link rel="stylesheet" type="text/css" href="bloques.css">-->
+<style>
+    *{
+        margin: 10px;
+        padding: 10px;
+    }
+    #wrapper{
+        
+        height: 800px;
+        width: 11px;
+        background-color: grey;
+
+    }
+    #header{
+        min-height: 150px;
+        width: 1090px;
+        background-color: purple;
+    }
+    #navigation{
+        min-height: 300px;
+        width: 200px;
+        background-color: pink;
+    }
+    #main_content{
+        margin-top: -480px;
+        margin-left: 400px;
+        transform: rotate(90deg);
+        min-height: 400px;
+        width: 550px;
+        height: 850px;
+        background-color: blue;
+    }
+    .subcontents{
+        min-height: 250px;
+        width: 250px;
+        background-color: yellow;
+    }
+    #advertisement{
+        margin-left: 50px;
+        transform: rotate(90deg);
+        min-height: 130px;
+        width: 800px;
+        height: 50px;
+        
+        background-color: green;
+    }
+</style>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header"></div>
+        <div id="navigation"></div>
+        <div id="main_content">
+            <div class="subcontents"></div>
+            <div class="subcontents"></div>
+            <div class="subcontents"></div>
+            <div id="advertisement"></div>
+        </div>
+    </div>
+</body>
+</html>
